@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+/*
+                if condtion
+    age range from 15 -> 18 or  from 20 to 25
+*/
+int main()
+{
+int age  ;
+
+/* Take the Inputs */
+
+cout << "enter Your Age : " ;
+cin >> age ;
+cout << "\n" ;
+
+
+if ((age >=15 && age <=18 )|| (age >=20 && age <=25))
+{
+    cout << "Accepted ! " ;
+
+}
+else
+{
+cout << "Rejected ! \n" ;
+cout << "Acceptable Range from 15 to 18 or from 20 to 25 " ;
+}
+
+
+  return 0;
+}
